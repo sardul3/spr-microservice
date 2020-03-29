@@ -9,7 +9,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class CoronaData {
     private String country;
-    private int totalCases;
-    private int totalDeath;
-    private int totalRecovered;
+    private String totalCases;
+    private String newCases;
+    private String totalDeath;
+    private String newDeath;
+    private String totalRecovered;
+    private String activeCases;
+    private String seriousCases;
 }

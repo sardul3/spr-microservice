@@ -20,4 +20,9 @@ public class CoronaController {
     public List<CoronaData> getCoronaData() {
         return coronaService.getData();
     }
+
+    @GetMapping("all")
+    public List<CoronaData>  getAll() {
+        return coronaService.scrapeData();
+    }
 }

@@ -1,4 +1,4 @@
-package com.example.mailservice.model;
+package com.example.jobsservice.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,6 +1,6 @@
 package com.example.jobsservice.service;
 
-import com.example.mailservice.model.Job;
+import com.example.jobsservice.model.Job;
 import lombok.extern.slf4j.Slf4j;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

@@ -1,6 +1,6 @@
 package com.example.jobsservice.controller;
 
-import com.example.mailservice.model.Job;
+import com.example.jobsservice.model.Job;
 import com.example.jobsservice.service.JobService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
